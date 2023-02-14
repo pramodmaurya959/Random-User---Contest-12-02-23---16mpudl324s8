@@ -8,8 +8,8 @@ const getUserButton = document.getElementById('getUser');
 
 const RANDOM_USER_API = "https://randomuser.me/api/";
 let age = 24;
-let email = "";
-let phone = "";
+let email = "pramodmaurya959@gmail.com";
+let phone = "+91 6393028992";
 
 function getRandomUser(){
      return fetch(RANDOM_USER_API).then(res => res.json()).then(res => res.results[0]);
